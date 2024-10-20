@@ -1,22 +1,7 @@
 import flet as ft
-from flet import RouteChangeEvent, Text
 
 def main(page: ft.Page):
     page.title = "Bloco de Notas"
-
-    """ def route_change(e: RouteChangeEvent) -> None:
-        page.views.clear()
-
-        page.views.append(
-            View(
-                route = '/',
-                controls=[
-                    ft.AppBar(title=Text('Home')),
-                    Text(value='Home'),
-                    ft.ElevatedButton(text='Go to notes', on_click=lambda_: page.go('/notepage'))
-                ],
-            )
-        ) """
 
     notes = []
     
